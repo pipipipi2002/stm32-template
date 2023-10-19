@@ -1,5 +1,9 @@
-# Nucleo-144 STM32 F746 libopencm3 template 
-This template is for vscode development with stlink debugger and it utilises the open source [libopencm3](https://github.com/libopencm3/libopencm3) library for the abstraction layer. It includes blinky code on LD2 of the nucleo board. It sets up the rcc clock settings that achieves 72MHz FCLK speed using the predefined pll configuration in libopencm3/stm32/rcc.c settings. It also provides basic vscode settings to get started with debugging. 
+# STM32 libopencm3 template 
+This template is for vscode development with stlink debugger and it utilises the open source [libopencm3](https://github.com/libopencm3/libopencm3) library for the abstraction layer. 
+
+The code in this root directory includes blinky code on LD2 of the nucleo board (STM32F746ZG). It sets up the rcc clock settings that achieves 72MHz FCLK speed using the predefined pll configuration in libopencm3/stm32/rcc.c settings. It also provides basic vscode settings to get started with debugging. 
+
+There are already premade template for easy copy and pasting to other projects. The templates have basic blinky firmware.
 
 Credits to [low byte production](https://github.com/lowbyteproductions/bare-metal-series/tree/main). This github page and his youtube video series helped me setup this development environment. 
 
