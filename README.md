@@ -11,7 +11,6 @@ Credits to [low byte production](https://github.com/lowbyteproductions/bare-meta
     - C/C++ Extension Pack
     - GNU Linker Map files
 
-
 ## Setting up
 1. Clone this repository.
 2. Run the following command inside the repository to get the libopencm3 repository.
@@ -28,6 +27,12 @@ Credits to [low byte production](https://github.com/lowbyteproductions/bare-meta
     ```bash
     $ make
     ```
+
+## Flash and Debug
+On the left side of your vscode window, click on the debug/play icon. Press the run button to flash your code.
+
+Now you can press the other play button right next to the "firmware" tab.
+
 
 # Working with another board/system
 It is possible to use another board with this template. It requires changes in the following files.

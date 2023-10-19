@@ -5,7 +5,7 @@
 #define LED_LD2_PORT GPIOB
 
 static void main_rcc_setup(void) {
-    /* Set System frequency to 72 MHz */
+    /* Set System frequency to 72 MHz with HSE 8MHz from STLINK */
     rcc_clock_setup_hse(&rcc_3v3[RCC_CLOCK_3V3_72MHZ], 8);
 }
 
